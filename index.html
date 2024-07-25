@@ -11,7 +11,7 @@
     
     <div id="app">
         <h1>Indirizzi Email Generati</h1>
-        <ul v-if="'randomMail.lenght == 10">
+        <ul v-if="'emails.length == 10">
             <li v-for="(email, index) in emails" :key="index">{{ email }}</li>
         </ul>
     </div>
